@@ -5,7 +5,7 @@ Every day, month, or year, there are newly released Netflix shows each day for p
 
 
 ## Problem Domains
-Many people gain inspiration and learn from insightful shows such as ones on Netflix. 
+Many people gain inspiration and learn from insightful shows such as ones on Netflix. Netflix is home to award winning shows that have influenced many audiences' values and insights of the world. Direct stakeholders of Neflix involve film production crews, cooporate employees, and software engineers who put to gether the streaming platform. Then, indirect stakeholders involve, the customers who buy a Netflix subscription, film critics, and the film industry. Something that both stakeholders value include entertainment and inspiration. Both stakeholders seek to gain entertainment from easily accessible films and shows. People also seek inspiration after watching these shows because an entertaining show can teach people new things about themselves or others. 
 
 ## Research Questions
 * What is the most popular show in each state across the United States?
