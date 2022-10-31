@@ -5,7 +5,7 @@ Every day, month, or year, there are newly released Netflix shows each day for p
 
 
 ## Problem Domains
-write
+Many people gain inspiration and learn from insightful shows such as ones on Netflix. 
 
 ## Research Questions
 * What is the most popular show in each state across the United States?
