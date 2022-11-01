@@ -35,7 +35,7 @@ https://www.kaggle.com/datasets/shivamb/netflix-shows?datasetId=434238
 write
 
 ## Limitations
-write 
+We will need to find datasets that display the popularity of the different netflix shows to answer a couple of our research questions. To be able to survey and examine which countries watch what will need a dataset that has variables based on geographical location such as country and popularity in that country. Thus, will need to find a dataset that has the number of hours watched for that show. To see if Netflix is putting out quality movies on their streaming platform will need a variable that gives us the IMDB rating of that movie. On wedsnesday we will get together and do research on more datasets that can help us figure out our problem domain and answer our questions.
 
 ## References
 Countries where Netflix is available. (n.d.). Netflix Help Center. Retrieved October 31, 2022, from https://help.netflix.com/en/node/14164
