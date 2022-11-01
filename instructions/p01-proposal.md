@@ -32,7 +32,8 @@ We found this dataset on Kaggle and it displays all TV shows and Movies metadata
 https://www.kaggle.com/datasets/shivamb/netflix-shows?datasetId=434238
 
 ## Expected Implications
-write
+
+* When policymakers answer all of their research questions they can come up with conclusions and make analysis. Such as policymakers on social media apps that use very big dataframes. These implications could be if whether we need to filter out certain words or not allow certain posts based off on surveys/data collection.
 
 ## Limitations
 We will need to find datasets that display the popularity of the different netflix shows to answer a couple of our research questions. To be able to survey and examine which countries watch what will need a dataset that has variables based on geographical location such as country and popularity in that country. Thus, will need to find a dataset that has the number of hours watched for that show. To see if Netflix is putting out quality movies on their streaming platform will need a variable that gives us the IMDB rating of that movie. On wedsnesday we will get together and do research on more datasets that can help us figure out our problem domain and answer our questions.
