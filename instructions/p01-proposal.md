@@ -33,10 +33,12 @@ https://www.kaggle.com/datasets/shivamb/netflix-shows?datasetId=434238
 
 ## Expected Implications
 
-* When policymakers answer all of their research questions they can come up with conclusions and make analysis. Such as policymakers on social media apps that use very big dataframes. These implications could be if whether we need to filter out certain words or not allow certain posts based off on surveys/data collection.
+When policymakers answer all of their research questions they can come up with conclusions and make analysis. Such as policymakers on social media apps that use very big dataframes. These implications could be if whether we need to filter out certain words or not allow certain posts based off on surveys/data collection.
+
+Another implication that arises from our findings would be realizing which parts of the U.S has access to internet. Netflix widely relies on the internet and stable wifi in order to create an entertaining environment for its audience. The relationship between the amount of Netflix show streaming in one area compared to another can tell us about the demographics of the population along with what resources are available to them in order to stream shows on platforms such as Netflix. This can also push policy makers to find ways to assist populations that need access to internet to do tasks such as homework, chores, or paying bills. 
 
 ## Limitations
-We will need to find datasets that display the popularity of the different netflix shows to answer a couple of our research questions. To be able to survey and examine which countries watch what will need a dataset that has variables based on geographical location such as country and popularity in that country. Thus, will need to find a dataset that has the number of hours watched for that show. To see if Netflix is putting out quality movies on their streaming platform will need a variable that gives us the IMDB rating of that movie. On wedsnesday we will get together and do research on more datasets that can help us figure out our problem domain and answer our questions.
+We will need to find datasets that display the popularity of the different Netflix shows to answer a couple of our research questions. To be able to survey and examine which countries watch what will need a dataset that has variables based on geographical location such as country and popularity in that country. Thus, will need to find a dataset that has the number of hours watched for that show. To see if Netflix is putting out quality movies on their streaming platform will need a variable that gives us the IMDB rating of that movie. On wedsnesday we will get together and do research on more datasets that can help us figure out our problem domain and answer our questions.
 
 ## References
 Countries where Netflix is available. (n.d.). Netflix Help Center. Retrieved October 31, 2022, from https://help.netflix.com/en/node/14164
