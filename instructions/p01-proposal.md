@@ -16,7 +16,9 @@ Many people gain inspiration and learn from insightful shows such as ones on Net
   * We are also curious about how many hours is spent on each show, it can tell us how much a state likes that show compared to any other place/region.
 
 ## Dataset
-write
+We found this dataset on Kaggle and it displays all TV shows and Movies metadata on Netflix. There are 12 different columns on the data set and 8807 different unique values (rows). This dataset gives us the necessary information about where the majority of movies/shows are produced. We hope to hear from indirect stakeholders and what Netflix shows they prefer. We can find the demographics of the audiences using the TV rating column that displays what audience the movie is for. We can see if there is a director for multiple movies and shows on Netflix wrangling the Director column. We plan on using more data sets to do more visualizations such as finding popularity, audience scores, and regional data on Netflix. This dataset gives us the foundation of all the current shows on the streaming service. Shivam Bandai created this dataset
+
+
 
 ## Expected Implications
 write
