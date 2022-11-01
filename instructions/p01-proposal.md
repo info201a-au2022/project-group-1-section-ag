@@ -5,7 +5,14 @@ Every day, month, or year, there are newly released Netflix shows each day for p
 
 
 ## Problem Domains
-Many people gain inspiration and learn from insightful shows such as ones on Netflix. Netflix is home to award winning shows that have influenced many audiences' values and insights of the world. Direct stakeholders of Neflix involve film production crews, cooporate employees, and software engineers who put to gether the streaming platform. Then, indirect stakeholders involve, the customers who buy a Netflix subscription, film critics, and the film industry. Something that both stakeholders value include entertainment and inspiration. Both stakeholders seek to gain entertainment from easily accessible films and shows. People also seek inspiration after watching these shows because an entertaining show can teach people new things about themselves or others. 
+
+Netflix is a streaming service that is home to hundreds of shows and movies for people to watch. They were founded in the U.S and are available in 150 countries (Countries Where Netflix Is Available, n.d.).
+Many people gain inspiration and learn from insightful shows such as ones on Netflix. Netflix is home to award winning shows that have influenced many audiences' values and insights of the world. They have also influenced many social and economical aspects. For instance, binge watching Netflix shows has become a normalized practice which influence the behaviors of audiences along with the rate of shows that are being produced (Matrix & Anya, 2014). The more people binge watch shows, the more producers want to release shows in order to keep their audience engaged. 
+
+Direct stakeholders of Neflix involve film production crews, cooporate employees, and software engineers who put to gether the streaming platform. Then, indirect stakeholders involve, the customers who buy a Netflix subscription, film critics, and the film industry. Something that both stakeholders value include entertainment and inspiration. Both stakeholders seek to gain entertainment from easily accessible films and shows. The high prices of cable bundles can have unhappy consumers be more willing to look for cheaper alternatives like Netflix (SLA Alumni, 2018). People also seek inspiration after watching these shows because an entertaining show can teach people new things about themselves or others. 
+
+Finally, there are many benefits to having a streaming service like Netflix. Netflix is an accessible streaming service that can provide entertainment to people at low prices. People are also able to take Netflix anywhere via mobile app since they provide offline streaming as long as you download your desired shows. They also provide shows that are exclusive to Netflix which makes the streaming service more unique compared to other services. While there are many benefits, there are also harms that exist within Netflix. Finding shows you want to watch can be difficult to find on Netflix’s platform since the recommendation algorithm mostly shows Netflix originals rather than shows a user might find interesting (SLA Alumni, 2018). Binge watching Netflix shows can also be harmful to the audience because some may lose sleep by over watching and develop habits that are not productive to their life. 
+
 
 ## Research Questions
 * What is the most popular show in each state across the United States?
@@ -25,3 +32,10 @@ write
 
 ## Limitations
 write 
+
+## References
+Countries where Netflix is available. (n.d.). Netflix Help Center. Retrieved October 31, 2022, from https://help.netflix.com/en/node/14164
+
+Matrix, S., & Anya, M. (2014). The Netflix Effect: Teens, Binge Watching, and On-Demand Digital Media Trends. UTP Journals. Retrieved October 31, 2022, from https://www.utpjournals.press/doi/abs/10.3138/jeunesse.6.1.119
+
+SLA Alumni. (2018, January 30). Netflix: The Media Killer - Digital Innovation and Transformation. HBS Digital Initiative. Retrieved October 31, 2022, from https://d3.harvard.edu/platform-digit/submission/netflix-the-media-killer/
