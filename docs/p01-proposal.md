@@ -13,8 +13,7 @@ For what to do, see the [`../instructions/`](../instructions/) directory, specif
 Autumn 2023
 
 ## Abstract
-
-Our main 
+Our main focus
 
 ## Affiliation
 INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
@@ -36,8 +35,9 @@ Finally, there are many benefits to having a streaming service like Netflix. Net
 ## Research Questions
 * What is the most popular show in each state across the United States?
   * This is our main question that we wanted to research about and we were curious on how it is compared across the country.
-* How do different shows across the five regions (Northeast, Southwest, West, Southeast, and Midwest) compare to each other? Are there similarities or differences?
+* How do different shows ratings across the five regions (Northeast, Southwest, West, Southeast, and Midwest) compare to each other? Are there similarities or differences?
   * Even though we can find what each states favorite show is, we are also curious how it is comparable to each region since there is different opinions in each region.
+  * We also want to see the popularity of shows in different reasons. (are india based films more popular in south asia, etc..)
 * Researching about the most watched Netflix show in state, about how many hours was viewed on that show?
   * We are also curious about how many hours is spent on each show, it can tell us how much a state likes that show compared to any other place/region.
 
