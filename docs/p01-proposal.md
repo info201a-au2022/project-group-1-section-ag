@@ -47,8 +47,8 @@ We found this dataset on Kaggle and it displays all TV shows and Movies metadata
 |--------------------|--------------|-----------|
 | netflix_titles.csv | 8807         |12         |
 
-Bansal, Shivam. (2021). Kaggle. Netflix Movies and TV Shows. Retrevieved October 31, 2022, from https://www.kaggle.com/datasets/shivamb/netflix-shows?datasetId=434238
-Narayan. (2022). Kaggle. Netflix popular movies dataset. Retrevieved October 31, 2022 https://www.kaggle.com/datasets/narayan63/netflix-popular-movies-dataset
+#### Bansal, Shivam. (2021). Kaggle. Netflix Movies and TV Shows. Retrevieved October 31, 2022, from https://www.kaggle.com/datasets/shivamb/netflix-shows?datasetId=434238
+#### Narayan. (2022). Kaggle. Netflix popular movies dataset. Retrevieved October 31, 2022 https://www.kaggle.com/datasets/narayan63/netflix-popular-movies-dataset
 
 ## Expected Implications
 
