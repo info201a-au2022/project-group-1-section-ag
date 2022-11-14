@@ -10,9 +10,9 @@ For what to do, see the [`../instructions/`](../instructions/) directory, specif
 # Netflix Shows Around the United States
 #### Emily Ma, Ian Pascal, Alex Chiu
 ## Date
+Autumn 2023
 
 ## Abstract
-Autumn 2023
 
 Our main 
 
