@@ -13,7 +13,7 @@ For what to do, see the [`../instructions/`](../instructions/) directory, specif
 Autumn 2023
 
 ## Abstract
-Our main focus
+Our main question is "What are the most popular show in all of the states across the U.S?". We hope to find different correlations between the shows rating and its popularity. To address these questions we plan on using netflix csv files from the internet and performing analysis on it. We will be using different ggplot graphs and other data wrangling techniques to answer any questions we have.
 
 ## Affiliation
 INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
