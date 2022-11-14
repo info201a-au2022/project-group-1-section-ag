@@ -7,6 +7,9 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+source("../source/chart_1.R")
+source("../source/chart_2.R")
+source("../source/chart3.R")
 ```
 
 ## What is this file for?
