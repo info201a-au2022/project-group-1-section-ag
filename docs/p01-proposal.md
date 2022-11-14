@@ -13,6 +13,8 @@ For what to do, see the [`../instructions/`](../instructions/) directory, specif
 
 ## Abstract
 
+Our main 
+
 ## Affiliation
 INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
 
@@ -45,7 +47,7 @@ We found this dataset on Kaggle and it displays all TV shows and Movies metadata
 |--------------------|--------------|-----------|
 | netflix_titles.csv | 8807         |12         |
 
-https://www.kaggle.com/datasets/shivamb/netflix-shows?datasetId=434238
+Bansal, Shivam. (2022). Kaggle. Netflix Movies and TV Shows Retrevieved October 31, 2022, from https://www.kaggle.com/datasets/shivamb/netflix-shows?datasetId=434238
 
 ## Expected Implications
 
