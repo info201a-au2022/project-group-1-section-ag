@@ -54,7 +54,8 @@ We found this dataset on Kaggle and it displays all TV shows and Movies metadata
 
 ## Expected Implications
 
-When policymakers answer all of their research questions they can come up with conclusions and make analysis. Such as policymakers on social media apps that use very big dataframes. These implications could be if whether we need to filter out certain words or not allow certain posts based off on surveys/data collection.
+When policymakers answer all of their research questions they can come up with conclusions and make analysis of what they found. Such as policymakers on social media and other applications that use a lot of data required to run these applications. These implications could be if whether we need to filter out certain content because it could be possibly deemed as "hate speech". Policymakers have to survey through data to put in place these policies.
+
 
 Another implication that arises from our findings would be realizing which parts of the U.S has access to internet. Netflix widely relies on the internet and stable wifi in order to create an entertaining environment for its audience. The relationship between the amount of Netflix show streaming in one area compared to another can tell us about the demographics of the population along with what resources are available to them in order to stream shows on platforms such as Netflix. This can also push policy makers to find ways to assist populations that need access to internet to do tasks such as homework, chores, or paying bills. 
 
