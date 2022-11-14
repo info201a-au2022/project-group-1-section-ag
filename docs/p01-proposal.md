@@ -12,7 +12,9 @@ For what to do, see the [`../instructions/`](../instructions/) directory, specif
 ## Introduction
 Every day, month, or year, there are newly released Netflix shows each day for people to view. With so many new shows that are released one after another, we are curious what some top shows are around the country. By finding data from each state, we can track the most viewed shows around each state because we are interested in the top shows that vary across the country. We plan to find data on this information using the website Kaggle, https://www.kaggle.com/datasets/shivamb/netflix-shows?datasetId=434238
 
-### Abstract
+## Abstract
+
+Netflix consists
 
 
 ## Problem Domains
