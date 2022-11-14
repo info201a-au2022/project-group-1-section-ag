@@ -1,7 +1,7 @@
 ---
-title: "Your Project Title"
+title: Netflix Movies and Shows
 author: "Alex Chiu, Emily, Ian"
-date: "1/22/2022"
+date: "11/10/2022"
 output: html_document
 ---
 
