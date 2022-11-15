@@ -21,7 +21,7 @@ source("../source/chart3.R")
 * Please see Canvas for more details.
 
 ## Dynamic paragraph
-Our project aims to focus on the popularity of Netflix shows around the U.S while also dicussing social factors that allow people to have access to streaming networks such as Netflix. We used multiple data sets to analyze popularity, genre, and ratings of Netflix shows. We were able to summarize data involving the relationship between T.V show genres and their release year **`r listed_shows`** in order to compare what the most produced genre was in each year. Also, we summarized T.V ratings compared to their IMDB rating ** `r rating_certificate`, compared top ten comedy/action movies and T.V shows based on their IMBD rating `r chart_3`, 
+Our project aims to focus on the popularity of Netflix shows around the U.S while also dicussing social factors that allow people to have access to streaming networks such as Netflix. We used multiple data sets to analyze popularity, genre, and ratings of Netflix shows. We were able to summarize data involving the relationship between T.V show genres and their release year **`r listed_shows`** in order to compare what the most produced genre was in each year. Also, we summarized T.V ratings compared to their IMDB rating ** `r rating_certificate`**, compared top ten comedy/action movies and T.V shows based on their IMBD rating **`r chart_3`**, a list of movies released after 2018 **`r movies_2018`, and shows grouped by their ratings **`r top_ratings`**. We hope these summaries help us understand how Netflix shows influence people's interests and how thoses interests change over time. 
 
 ## Chart 1
 As seen below, is a pie chart depicting genres of T.V shows on netflix made in the U.S and their release year. The T.V show genres are labled as "listed_as" in the dataset. Genres vary from documentaries, dramas, and comedies. In the pie chart, there lists 382 T.V shows that were released before 2018. We can see that there is a large range of American T.V shows that were released throughout the past four years. This can help us understand which genres were being released more often in each year to compare how an audience's interest changes over time. 
@@ -39,7 +39,9 @@ rating_certificate
 
 ## Chart 3
 This is a bar chart distribution that is able to compare the top ten movies as well as TV shows in the category of comedy/action and what their IMBD ratings are. Looking at the bar chart, we can conclude that the movie/show that had the highest IMBD rating is called Daredevil with a rating of 8.6. The lowest on this bar chart is called Money Heist as well as Kill Bill: Vol. 1 (2003) with a rating of 8.2 We can conclude that looking at the data and the bar chart that their rating are very similar to each other. We can also see that the data distrubuted is not biased towards movies or shows that it's actually a mix of both.
-
+```{r}
+chart_3
+```
 
 ## ACCESSING THE /source DIRECTORY
 ### Example 1: Source some code and run a function
