@@ -30,6 +30,8 @@ rating_certificate
 ```
 
 ## Chart 3
+This is a bar chart distribution that is able to compare the top ten movies as well as TV shows in the category of comedy/action and what their IMBD ratings are. Looking at the bar chart, we can conclude that the movie/show that had the highest IMBD rating is called Daredevil with a rating of 8.6. The lowest on this bar chart is called Money Heist as well as Kill Bill: Vol. 1 (2003) with a rating of 8.2 We can conclude that looking at the data and the bar chart that their rating are very similar to each other. We can also see that the data distrubuted is not biased towards movies or shows that it's actually a mix of both.
+
 
 ## ACCESSING THE /source DIRECTORY
 ### Example 1: Source some code and run a function
