@@ -11,5 +11,5 @@ top_IMBD <-netflix %>%
   slice(1:10)
 view(top_IMBD)
 
-ggplot(data = top_IMBD) +
+chart_3 <- ggplot(data = top_IMBD) +
   geom_col(mapping = aes(x= title, y= rating, fill = title  ))
