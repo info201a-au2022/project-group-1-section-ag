@@ -18,6 +18,8 @@ source("../source/chart3.R")
 
 * Please see Canvas for more details.
 
+## Dynamic paragraph
+
 ## Chart 1
 
 ## Chart 2
