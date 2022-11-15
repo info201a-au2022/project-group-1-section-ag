@@ -18,6 +18,17 @@ source("../source/chart3.R")
 
 * Please see Canvas for more details.
 
+## Chart 1
+
+## Chart 2
+This is a boxplot distribution between different groups of certificate TV rating(parental guideline system) such as TV-14, TV G, and TV Ma compared to user score (IMDB rating. According to user ratings from IMDB it looks as TV-Y7(audience targeted under 7) shows have the highest IMDB ratings on average. This observation was a little suprising because you'd assume TV-Ma and TV-14 would be the most popular and thus have the highest ratings. Most of the average ratings and distributions are similar across the different certificates. This chart help us to see if they're any differences in quality of tv shows across different parental guideline systems. 
+
+```{r}
+rating_certificate
+```
+
+## Chart 3
+
 ## ACCESSING THE /source DIRECTORY
 ### Example 1: Source some code and run a function
 ```{r}
