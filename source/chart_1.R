@@ -10,6 +10,6 @@ listed <- shows %>%
   group_by(listed_in) %>% 
   filter(release_year > 2018) 
 
-ggplot(data= listed, aes(x= "", y= listed_in, fill= release_year)) +
+listed_shows <- ggplot(data= listed, aes(x= "", y= listed_in, fill= release_year)) +
   geom_bar(stat= "identity", width = 1) +
   coord_polar("y", start= 0)
