@@ -13,3 +13,4 @@ view(top_IMBD)
 
 ggplot(data = top_IMBD) +
   geom_col(mapping = aes(x= title, y= rating, fill = title  ))
+  labs(title = "Top IMBD Rating for Movies and Shows")
