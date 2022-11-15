@@ -1,6 +1,6 @@
 ---
 title: Netflix Movies and Shows
-author: "Alex Chiu, Emily, Ian"
+author: "Alex Chiu, Emily Ma, Ian Fink"
 date: "11/10/2022"
 output: html_document
 ---
@@ -22,6 +22,11 @@ source("../source/chart3.R")
 
 ## Dynamic paragraph
 Our project aims to focus on the popularity of Netflix shows around the U.S while also dicussing social factors that allow people to have access to streaming networks such as Netflix. We used multiple data sets to analyze popularity, genre, and ratings of Netflix shows. We were able to summarize data involving the relationship between T.V show genres and their release year **`r listed_shows`** in order to compare what the most produced genre was in each year. Also, we summarized T.V ratings compared to their IMDB rating ** `r rating_certificate`**, compared top ten comedy/action movies and T.V shows based on their IMBD rating **`r chart_3`**, a list of movies released after 2018 **`r movies_2018`, and shows grouped by their ratings **`r top_ratings`**. We hope these summaries help us understand how Netflix shows influence people's interests and how thoses interests change over time. 
+
+## Table
+```{r}
+df_grp
+```
 
 ## Chart 1
 As seen below, is a pie chart depicting genres of T.V shows on netflix made in the U.S and their release year. The T.V show genres are labled as "listed_as" in the dataset. Genres vary from documentaries, dramas, and comedies. In the pie chart, there lists 382 T.V shows that were released before 2018. We can see that there is a large range of American T.V shows that were released throughout the past four years. This can help us understand which genres were being released more often in each year to compare how an audience's interest changes over time. 
