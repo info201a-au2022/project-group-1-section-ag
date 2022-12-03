@@ -3,22 +3,22 @@
 library(plotly)
 library(tidyverse)
 library(dplyr)
-df_netflix <- read_csv("https://raw.githubusercontent.com/info201a-au2022/project-group-1-section-ag/main/data/netflix_titles.csv")
+df_netflix_titles <- read_csv("https://raw.githubusercontent.com/info201a-au2022/project-group-1-section-ag/main/data/netflix_titles.csv")
 
-df_netflix <- df_netflix %>%
+df_netflix_titles <- df_netflix_titles %>%
   mutate(main_country = map(str_split(country, ", "), 1), 
          main_cast = map(str_split(cast, ", "), 1), 
          genre = map(str_split(listed_in, ", "), 1)) %>% 
   unnest(cols = c(main_country, main_cast, genre)) %>% 
   mutate(type = as.factor(type)
   ) 
-head(df_netflix)
+head(df_netflix_titles)
 
 
 mapdata <- map_data("world")
 
 #changing country labels in netflix dataframe
-netflix_for_map <- df_netflix %>% 
+netflix_for_map <- df_netflix_titles %>% 
   mutate(main_country = str_replace_all(main_country, 
                                         c("United States" = "USA",
                                           "United Kingdom" = "UK",
