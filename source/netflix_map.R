@@ -1,5 +1,7 @@
 
 
+
+
 library(plotly)
 library(tidyverse)
 library(dplyr)
@@ -14,8 +16,7 @@ head(df_netflix_titles)
 
 mapdata <- map_data("world")
 
-#changing country labels in netflix dataframe
-netflix_for_map <- df_netflix_titles %>% 
+netflix_for_map <- df_netflix %>% 
   mutate(main_country = str_replace_all(main_country, 
                                         c("United States" = "USA",
                                           "United Kingdom" = "UK",
@@ -41,12 +42,12 @@ temp <- ggplot() +
                                  "Netflix Contents: ", content_count)),
                size = 0, alpha = .9, color = "black"
   ) + 
-  labs(title = "Distribution of Netflix Contents by Country") +
+  labs(title = "Netflix content by Country") +
   theme_void() +
-  scale_fill_gradient(name = "Content Count", 
+  scale_fill_gradient(name = "Shows and Movies Count", 
                       trans = "pseudo_log",
-                      breaks = c(0, 7, 56, 403, 3000),
-                      labels = c(0, 7, 56, 403, 3000),
+                      breaks = c(0, 10, 50, 3000),
+                      labels = c(0, 10, 50, 3000),
                       low =  "bisque2",
                       high = "#b20710") +
   theme(panel.grid.major = element_blank(),
