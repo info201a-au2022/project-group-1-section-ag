@@ -34,7 +34,7 @@ map_join <- mapdata %>%
   left_join(. , count_country, by = c("region"="main_country")) %>% 
   mutate(content_count = replace_na(content_count, 0))
 
-temp <- ggplot() +
+map_shape <- ggplot() +
   geom_polygon(data = map_join, 
                aes(fill = content_count, x = long, y = lat, 
                    group = group, 
@@ -55,6 +55,8 @@ temp <- ggplot() +
         plot.title = element_text(face = "bold")) 
 
 
-ggplotly(temp, tooltip = "text") %>% 
+netflix_map <- ggplotly(map_shape, tooltip = "text") %>% 
   config(displayModeBar = F) %>% 
   layout(legend = list(x = .1, y = .9))
+
+netflix_map
