@@ -7,7 +7,7 @@ df_netflix_titles <- df_netflix_titles %>%
   mutate(main_country = map(str_split(country, ", "), 1))
 world_data <- map_data("world")
 
-netflix_for_map <- df_netflix_titles %>% 
+df_filter_netflix <- df_netflix_titles %>% 
   mutate(main_country = str_replace_all(main_country, 
                                         c("United States" = "USA",
                                           "United Kingdom" = "UK",
@@ -15,7 +15,7 @@ netflix_for_map <- df_netflix_titles %>%
                                           "Soviet Union" = "Russia",
                                           "West Germany" = "Germany")))
 
-count_country <- netflix_for_map %>% 
+count_country <- df_filter_netflix %>% 
   group_by(main_country) %>% 
   summarise(content_count = n()) %>% 
   ungroup() %>% 
