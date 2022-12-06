@@ -6,7 +6,7 @@ map_main_content <- mainPanel(
 
 map_panel <- tabPanel(
   "Map",
-  titlePanel("Electoral College Votes"),
+  titlePanel("Choropleth map"),
   # A `sidebarLayout()` that contains...
   sidebarLayout(
     # Your `map_sidebar_content`
