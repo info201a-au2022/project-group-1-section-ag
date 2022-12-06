@@ -51,7 +51,6 @@ server <- function(input, output) {
             axis.line = element_blank(),
             plot.title = element_text(face = "bold")) 
     
-    
     interactive_netflix_map <- ggplotly(netflix_map, tooltip = "text") %>% 
       config(displayModeBar = F) %>% 
       layout(legend = list(x = .1, y = .9))
