@@ -1,8 +1,33 @@
 library(ggplot2)
 library(plotly)
 library(dplyr)
+library(tidyverse)
 
 df_netflix_titles <- read_csv("https://raw.githubusercontent.com/info201a-au2022/project-group-1-section-ag/main/data/netflix_titles.csv")
+
+netflix_imdb <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-1-section-ag/main/data/n_movies.csv")
+
+netflix_filter_imdb <- netflix_imdb %>%
+  filter(title == unique(title))
+
+
+
+
+build_graph <- function(data, type){
+  top_IMBD <- data %>%
+    filter(str_detect(netflix_filter_imdb$genre, type)) %>%
+    arrange(desc(rating)) %>%
+    slice(1:10)
+  
+  chart_3 <- ggplot(data = top_IMBD) +
+    geom_col(mapping = aes(x = title, y= rating, fill = title  ))
+  
+  return(chart_3)
+}
+
+
+
+
 
 server <- function(input, output) {
   output$map <- renderPlotly({ 
@@ -58,6 +83,10 @@ server <- function(input, output) {
     return(interactive_netflix_map)
     
   }) 
+  
+   output$imdb <- renderPlotly({ 
+    return(build_graph(netflix_filter_imdb, input$var))
+  })
   
 }
 
