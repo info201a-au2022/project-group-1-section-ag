@@ -14,6 +14,7 @@ intro_panel <- tabPanel(
   "Introduction",
   h2("Introduction"),
   p("Ian Pascal, Alex Chiu, Emily Ma"),
+  
   p("Netflix is an American streaming service that offers a variety of movies, TV shows, anime, documentaries and much more. For this project, we wanted to focus on the distribution of popular Netflix streams and how that would look like across the World.
 We are also interested in the quality of Netflix shows and if they distribute quality content to its viewers. We use two datasets which both come from kaggle and they both consist of data related to Netflix content.
  For example, we were able to create an input function of the most popular streams and their IMDb (overall rating out of 10) ratings. By creating a selectInput function, it is able to help show relevant content such as the ratings that will be displayed. Using this function we can select
