@@ -99,7 +99,7 @@ build_popularity <- function(data2, time){
     geom_text(aes(label=votes), vjust=-0.3, size=3.5) +
     coord_flip() +
     labs(
-      title = "Top 10 IMDB rated content on Netflix by Year",
+      title = "Top 10 IMDB popular content on Netflix by Year",
       x = "Content Titles",
       y = "Number of IMDB votes (Popularity)"
     )
