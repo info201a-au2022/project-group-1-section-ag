@@ -94,7 +94,7 @@ build_popularity <- function(data2, time){
     arrange(desc(votes)) %>%
     slice(1:10)
   
-  popularity_chart <- ggplot(top_IMBD, aes(x=title, y=as.numeric(votes), fill="votes")) + 
+  popularity_chart <- ggplot(top_IMBD, aes(x=title, y=as.numeric(votes), fill=certificate)) + 
     geom_bar(stat="identity") +
     geom_text(aes(label=votes), vjust=-0.3, size=3.5) +
     coord_flip() +
