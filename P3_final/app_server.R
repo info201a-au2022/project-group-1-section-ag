@@ -67,8 +67,15 @@ build_graph <- function(data, type){
     arrange(desc(rating)) %>%
     slice(1:10)
   
-  chart_3 <- ggplot(data = top_IMBD) +
-    geom_col(mapping = aes(x = title, y= rating, fill = title  ))
+  chart_3 <- ggplot(top_IMBD, aes(x=title, y=rating, fill=rating)) + 
+    geom_bar(stat="identity") +
+    geom_text(aes(label=rating), vjust=-0.3, size=3.5) +
+    coord_flip() +
+    labs(
+      title = "Top 10 IMDB rated content on Netflix",
+      x = "Content Titles",
+      y = "IMDB rating"
+    )
   
   return(chart_3)
 }
