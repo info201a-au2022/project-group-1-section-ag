@@ -15,7 +15,7 @@ imdb_main_content <- mainPanel(
   plotlyOutput("imdb")
 )
 
-popularity_sidebar_content <- sidebarPanel(
+popularity_main_content <- sidebarPanel(
   plotlyOutput("popularity")
 )
 
@@ -89,10 +89,10 @@ popularity_panel <- tabPanel(
   titlePanel("Netflix most Popular Content by the Year"),
   sidebarLayout(
     
-    imdb_sidebar_content,
+    popularity_sidebar_content,
     
     
-    imdb_main_content
+    popularity_main_content
   )
 )
 
