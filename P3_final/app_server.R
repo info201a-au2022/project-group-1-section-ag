@@ -57,8 +57,16 @@ map_join <- world_data %>%
          Movie_count = replace_na(Movie_count, 0))
 
 
-test54 <- map_join %>%
-  select(long, lat, group, order, region, subregion, TV_count)
+filtered_popularity_year <- netflix_filter_imdb %>% 
+  group_by(filtered_year = substr(netflix_filter_imdb$year, 2, 5)) %>% 
+  filter(filtered_year >= "2015") %>%
+  ungroup()
+
+
+filtered_popularity_year <- filtered_popularity_year %>%
+  mutate(votes = sub(",", "", votes)) %>%
+  mutate(votes = sub(",", "", votes)) %>%
+  mutate(votes = strtoi(votes))
 
 
 build_graph <- function(data, type){
@@ -78,6 +86,25 @@ build_graph <- function(data, type){
     )
   
   return(chart_3)
+}
+
+build_popularity <- function(data2, time){
+  top_IMBD <- data2 %>%
+    filter(str_detect(filtered_popularity_year$filtered_year, time)) %>%
+    arrange(desc(votes)) %>%
+    slice(1:10)
+  
+  popularity_chart <- ggplot(top_IMBD, aes(x=title, y=as.numeric(votes), fill="votes")) + 
+    geom_bar(stat="identity") +
+    geom_text(aes(label=votes), vjust=-0.3, size=3.5) +
+    coord_flip() +
+    labs(
+      title = "Top 10 IMDB rated content on Netflix by Year",
+      x = "Content Titles",
+      y = "Number of IMDB votes (Popularity)"
+    )
+  
+  return(popularity_chart)
 }
 
 
@@ -123,7 +150,10 @@ server <- function(input, output) {
    output$imdb <- renderPlotly({ 
     return(build_graph(netflix_filter_imdb, input$var))
   })
+   
+   output$popularity <- renderPlotly({
+     return(build_popularity(filtered_popularity_year, input$time))
+  })
   
 }
-
 
