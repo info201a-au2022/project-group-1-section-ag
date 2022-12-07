@@ -50,6 +50,7 @@ map_sidebar_content <- sidebarPanel(
 map_panel <- tabPanel(
   "Map",
   titlePanel("Choropleth map"),
+  p("Below consists of a choropleth map of Netflix content distributed by country. This visualization allows us to see where the majority of Netflix Content comes from and which countries distribute the most film. The United States, India, and the United Kingdom all created the most Movies and Shows that are streaming on Netflix. We implemented a select function that allows you to specifically see the number of TV shows or Movies distributed by Country. There are a lot more Movies on the Netflix platform when you hover over the different countries and switch inputs. Using this visualization we can see if a country creates more TV or Movie content."),
   sidebarLayout(
   
   map_sidebar_content,
@@ -76,6 +77,7 @@ imdb_sidebar_content <- sidebarPanel(
 imdb_panel <- tabPanel(
   "IMDB",
   titlePanel("Netflix Top IMDB Content"),
+  p("For chart two, we analyzed the “Top 10 IMDb rated content on Netflix”. We wanted to analyze this information because we thought that it would be interesting to compare and contrast the different types of content that were presented on Netflix and also thought that it would be interesting to see the ratings between the content. For example, looking at the visualizations for the genre of action, we can see that Avatar: The Last Airbender had the highest rating with 9.3 out of 10. We can also see that Cyberpunk: Edgerunners had a rating of 8.6 out of 10 compared to Avatar’s 9.3. By using the interactive drop down method we can see the different genres and look at their ratings and compare."),
   sidebarLayout(
 
     imdb_sidebar_content,
@@ -103,6 +105,7 @@ popularity_sidebar_content <- sidebarPanel(
 popularity_panel <- tabPanel(
   "Popularity",
   titlePanel("Netflix most Popular Content by the Year"),
+  p("Lastly, this visual depicts the distribution of Netflix shows and their TV/IMDb rating scores between 2018 and 2022. By using the slider tool, you would be able to scroll through the years and see the change in rating distribution of Netflix shows overall. Based on this, we can see how interests change over time. These can correlate to current social media trends that reflect a population’s changing interests."),
   sidebarLayout(
     
     popularity_sidebar_content,
@@ -111,6 +114,11 @@ popularity_panel <- tabPanel(
     popularity_main_content
   )
 )
+
+summary_panel <- tabPanel(
+  "Summary", 
+  titlePanel("Summary"), 
+  p("By creating this project, we wanted to present information as well as visualizations that are able to showcase our learnings on Netflix. *We created a choropleth map that shows us where the most popular Netflix distributions take place around the world. By creating this visualization, we were able to see that the USA, India, and United Kingdom are all major countries that contribute to Netflix’s major popularity streams. We believe that these countries are able to distribute the most films because of the media marketing strategies that each country can produce. The United States ranks the highest among countries because the Hollywood cinema is the oldest film industry in the world. *We were then also curious about the Netflix ratings on Netflix. We wanted to find out the top ratings using IMDb ratings. By creating this feature and using IMDb, we are able to see what the general perspective will think. *We also wanted to learn about the IMDb ratings from the years of 2018 to 2022. We created a slider tool to look through the different years and to see the different ratings on Netflix shows."), 
 
 
 
