@@ -30,6 +30,10 @@ build_graph <- function(data, type){
 filtered_tv_netflix <- netflix %>%
   filter(str_detect(netflix$certificate, "TV"))
 
+filtered_popularity <- netflix %>% 
+  group_by(filtered_year = substr(netflix$year, 2, 5)) %>% 
+  filter(filtered_year >= "2018")
+  
 
 rating_certificate <- ggplot(filtered_tv_netflix, aes(x = certificate, y = rating, fill = certificate)) + 
   geom_boxplot() +
