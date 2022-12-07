@@ -3,6 +3,8 @@ library(dplyr)
 library(tidyverse)
 library(shiny)
 library(plotly)
+library(markdown)
+library(maps)
 
 df_netflix_titles <- read_csv("https://raw.githubusercontent.com/info201a-au2022/project-group-1-section-ag/main/data/netflix_titles.csv")
 
