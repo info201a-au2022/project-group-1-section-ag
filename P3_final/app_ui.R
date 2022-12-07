@@ -22,7 +22,8 @@ imdb_sidebar_content <- sidebarPanel(
     choices = list(
       "Action Content" = "Action",
       "Comedy Content" = "Comedy",
-      "Drama Content" = "Drama"
+      "Drama Content" = "Drama",
+      "Romance Content" = "Romance
     )
   )
 )
