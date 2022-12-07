@@ -122,7 +122,7 @@ summary_panel <- tabPanel(
   "Summary", 
   titlePanel("Summary"), 
   p("By creating this project, we wanted to present information as well as visualizations that are able to showcase our learnings on Netflix. *We created a choropleth map that shows us where the most popular Netflix distributions take place around the world. By creating this visualization, we were able to see that the USA, India, and United Kingdom are all major countries that contribute to Netflix’s major popularity streams. We believe that these countries are able to distribute the most films because of the media marketing strategies that each country can produce. The United States ranks the highest among countries because the Hollywood cinema is the oldest film industry in the world. *We were then also curious about the Netflix ratings on Netflix. We wanted to find out the top ratings using IMDb ratings. By creating this feature and using IMDb, we are able to see what the general perspective will think. *We also wanted to learn about the IMDb ratings from the years of 2018 to 2022. We created a slider tool to look through the different years and to see the different ratings on Netflix shows."), 
-
+)
 
 
 
