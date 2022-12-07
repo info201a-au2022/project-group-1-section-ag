@@ -101,7 +101,8 @@ build_popularity <- function(data2, time){
     labs(
       title = "Most popular content on Netflix by Year",
       x = "Content Titles",
-      y = "Number of IMDB votes (Popularity)"
+      y = "Number of IMDB votes (Popularity)",
+      fill = "TV rating"
     )
   
   return(popularity_chart)
