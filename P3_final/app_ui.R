@@ -80,7 +80,7 @@ imdb_sidebar_content <- sidebarPanel(
 imdb_panel <- tabPanel(
   "IMDB",
   titlePanel("Netflix Top IMDB Content"),
-  p("For chart two, we analyzed the “Top 10 IMDb rated content on Netflix”. We wanted to analyze this information because we thought that it would be interesting to compare and contrast the different types of content that were presented on Netflix and also thought that it would be interesting to see the ratings between the content. For example, looking at the visualizations for the genre of action, we can see that Avatar: The Last Airbender had the highest rating with 9.3 out of 10. We can also see that Cyberpunk: Edgerunners had a rating of 8.6 out of 10 compared to Avatar’s 9.3. By using the interactive drop down method we can see the different genres and look at their ratings and compare."),
+  p("For chart two, we analyzed the “Top 10 IMDb rated content on Netflix”. We wanted to analyze this information because we thought that it would be interesting to compare and contrast the different types of content that were presented on Netflix and also thought that it would be interesting to see the ratings between the content. For example, looking at the visualizations for the genre of action, we can see that Avatar: The Last Airbender had the highest rating with 9.3 out of 10. We can analyze this rating and compare it to all the other action content on the list which all have close to similar ratings but not as high as Avatar. By using the interactive drop down method we can see the different genres and look at their ratings and compare."),
   sidebarLayout(
 
     imdb_sidebar_content,
