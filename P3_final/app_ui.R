@@ -131,5 +131,6 @@ ui <- navbarPage(
   intro_panel,
   map_panel,
   imdb_panel,
-  popularity_panel
+  popularity_panel,
+  summary_panel
 )
