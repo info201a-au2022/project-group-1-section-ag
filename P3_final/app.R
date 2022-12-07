@@ -8,9 +8,14 @@
 #
 
 library(shiny)
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
 
-source("app_ui.R")
+# library("rsconnect")
+
 source("app_server.R")
+source("app_ui.R")
 
 shinyApp(ui = ui, server = server)
 
