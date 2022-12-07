@@ -7,8 +7,8 @@ df_netflix_titles <- read_csv("https://raw.githubusercontent.com/info201a-au2022
 
 netflix_imdb <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-1-section-ag/main/data/n_movies.csv")
 
-netflix_filter_imdb <- netflix_imdb %>%
-  filter(title == unique(title))
+netflix_filter_imdb <- 
+  netflix_imdb[!duplicated(netflix_imdb$title), ]
 
 df_netflix_titles <- df_netflix_titles %>%
   mutate(main_country = map(str_split(country, ", "), 1))
