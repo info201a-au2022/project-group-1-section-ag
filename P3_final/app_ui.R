@@ -38,3 +38,8 @@ imdb_panel <- tabPanel(
     imdb_main_content
   )
 )
+ui <- navbarPage(
+  "Netlix Movies and Shows",
+  map_panel,
+  imdb_panel
+)
