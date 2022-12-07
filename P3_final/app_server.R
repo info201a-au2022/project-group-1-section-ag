@@ -1,5 +1,4 @@
-library(ggplot2)
-library(plotly)
+ibrary(ggplot2)
 library(dplyr)
 library(tidyverse)
 
@@ -13,6 +12,7 @@ netflix_filter_imdb <- netflix_imdb %>%
 df_netflix_titles <- df_netflix_titles %>%
   mutate(main_country = map(str_split(country, ", "), 1))
 world_data <- map_data("world")
+
 
 df_filter_netflix <- df_netflix_titles %>% 
   mutate(main_country = str_replace_all(main_country, 
@@ -109,7 +109,7 @@ build_popularity <- function(data2, time){
 
 
 build_map <- function(dataset, count){
-
+  
   netflix_map <- ggplot() +
     geom_polygon(data = dataset,
                  aes(fill = dataset[,count], 
@@ -147,13 +147,12 @@ server <- function(input, output) {
     return(build_map(map_join, input$count))
   }) 
   
-   output$imdb <- renderPlotly({ 
+  output$imdb <- renderPlotly({ 
     return(build_graph(netflix_filter_imdb, input$var))
   })
-   
-   output$popularity <- renderPlotly({
-     return(build_popularity(filtered_popularity_year, input$time))
+  
+  output$popularity <- renderPlotly({
+    return(build_popularity(filtered_popularity_year, input$time))
   })
   
 }
-
