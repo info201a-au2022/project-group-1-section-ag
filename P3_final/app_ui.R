@@ -142,7 +142,21 @@ summary_panel <- tabPanel(
 report_panel <-tabPanel(
  "Report",
   titlePanel("Report"),
-  p("")
+  p("Netflix Show and Movies"),
+  p("Emily Ma, Ian Pascal, Alex Chiu"),
+  p("Autumn 2023"),
+  h2("Abstract"),
+  p("Our main question is "What are the most popular show in all of the states across the U.S?". We hope to find different correlations between the shows rating and its popularity. To address these questions we plan on using netflix csv files from the internet and performing analysis on it. We will be using different ggplot graphs and other data wrangling techniques to answer any questions we have.")
+  h2("Affiliation"),
+  p("INFO-201: Technical Foundations of Informatics - The Information School - University of Washington"),
+  h2(""),
+  p(""),
+  h2(""),
+  p(""),
+  h2(""),
+  p(""),
+  h2(""),
+  p(""),
 )
 
 
