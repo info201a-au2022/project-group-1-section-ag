@@ -187,9 +187,11 @@ Another implication that arises from our findings would be realizing which parts
   h2("Findings"),
   p("Our world map data visualization helped us solve many of our questions. Such as “Which countries distribute the most netflix content”. Using our visualization we can conclude that the countries; United States, India, and United Kingdom distributed the most content that is accessible through Netflix. The U.S has a total of 3,210 content including Movies and Shows, 2363 movies and 847 being shows. Something interesting we found was that 927/1008 of the content distributed in India were movies. It is also clear that there are a lot more movies streaming on netflix compared to shows. “Is the quality of the shows that Netflix put out good?” We can answer this question using our bar distribution graph of the top IMDB content on Netflix. Movie and show review can be pretty subjective but usually IMDB ratings are fairly accurate in determining whether a film is quality. When surveying the top rated movies throughout the chart there is a lot of quality content such as Lord of the Rings, Rick and Morty, Sherlock, and Breaking bad. All of these shows have a score of over 9 which is very high and answers our question to whether if Netflix produced quality content. This visualization also helps us to see which genre has the highest IMDB rated shows which would be “Drama Content”. Having highly rated content is important for the user since they’re paying for a Netflix subscription. “Based on user scores should I keep my Netflix subscription or switch to another streaming platform?” , is a question we considered when wrangling the data set. Since Netflix has shows like Breaking Bad and a lot of other highly rated content over a 8 IMDB score we determined that its worth keeping a subscription. Although this does not factor the average scores across all the shows and just graphs the top scores. “What is the most popular show in each state across the United States?”, is a question we semi-answered. Using the total number of votes for each show/movie we determined what was most popular throughout the years. In 2022 The Gray Man and the Adam project had the most votes. In 2021, the film Don’t look up had the most votes with 525,424 of the last 5 years. Although we could not answer the question which show was most popular in the U.S we can assume its likely one of the shows listed in the graph throughout the years."),
   h2("Discussion"),
-  p(),
+  p(""),
   h2("Conclusion"),
-  p()
+  p(""),
+  h2("References"),
+  p("")
 )
 
 
