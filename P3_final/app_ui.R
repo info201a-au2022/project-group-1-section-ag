@@ -23,6 +23,13 @@ We are also interested in the quality of Netflix shows and if they distribute qu
  different genres and begin to visualize the top rated movies for that specific genre. 
  also decided to create an interactive map of where the majority of Netflix content comes from. By creating an interactive map, you are able to see which countries produce the most streaming content on Netflix. Looking at each state’s popularity, we are then able to see the most 
  common streams and then compare it with other different/similar states. By analyzing the streams with Netflix we are able to compare and contrast information and learn new information about the states and how they can be similar/different to each other. 
+
+Which countries distributed the most Netflix content?
+
+Which shows/movies were most popular throughout the last years?
+
+Should I keep my netflix subscriptionship? Are the movies and shows that netflix streams considered ‘quality’?
+
 "),
   img("", src = "https://media4.giphy.com/media/3o7budg7unzImxj3Ik/giphy.gif?cid=ecf05e478636ha1ug1hagndtuc35rem6rgq7y841k5fovejj&rid=giphy.gif&ct=s")
 )
@@ -132,6 +139,12 @@ summary_panel <- tabPanel(
 )
 )
 
+report_panel <-tabPanel(
+ "Report",
+  titlePanel("Report"),
+  p("")
+)
+
 
 
 ui <- navbarPage(
@@ -140,5 +153,6 @@ ui <- navbarPage(
   map_panel,
   imdb_panel,
   popularity_panel,
-  summary_panel
+  summary_panel,
+  report panel
 )
